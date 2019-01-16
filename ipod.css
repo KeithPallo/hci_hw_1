@@ -32,23 +32,26 @@ body {
 .albums-album-wrapper {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	background-color: blue;
-	height: 240px;
+	background-color: white;
+	height: 480px;
 	padding: 1px
 }
 
 .albums-album-art {
-	background-color: purple;
-	background-image: url("images/currents.jpg");
-	height: 70%
+	background-color: white;
+	height: 130px;
+	width: 130px;
+	padding: 5%
 }
 
 .albums-album-name {
-	background-color: white;
 	text-align: center;
+	font-weight: bold;
 }
 
 .albums-artist-name {
+	text-align: center;
+	font-style: italic;
 
 }
 
