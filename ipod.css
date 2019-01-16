@@ -26,8 +26,11 @@ body {
 	float:left;
 	height: 80%;
 	width: 20%;
-	padding-top: 2%;
-	padding-left: 1%;
+	margin-top: 3px;
+	margin-left: 3px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
 }
 
 a:link {
@@ -41,12 +44,12 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 	color: black;
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
 	color: black;
 }
 
@@ -57,7 +60,7 @@ a:active {
 	display: grid;
 	grid-template-columns: 50% 50%;
 	background-color: white;
-	height: 480px;
+	height: 440px;
 	width: 290px;
 	margin-left: 5px;
 
